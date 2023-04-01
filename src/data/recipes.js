@@ -696,6 +696,24 @@ const RECIPES = [
     vegetarian: false,
     quick: true,
   },
+  {
+    name: "Turkey Empanadas",
+    source: "Internet",
+    weight: HEAVY,
+    cuisine: MEXICAN,
+    meal: DINNER,
+    vegetarian: false,
+    quick: false,
+  },
+  {
+    name: "Spatzle",
+    source: "Internet",
+    weight: HEAVY,
+    cuisine: ITALIAN,
+    meal: DINNER,
+    vegetarian: true,
+    quick: false,
+  },
 ];
 
 export { RECIPES, CUISINES, WEIGHTS, MEALS, DINNER };
